@@ -1,4 +1,4 @@
-let n =234;
+let n =676;
 let nCopy = n;
 let reverse = 0;
 let remainder = 0;
