@@ -16,12 +16,14 @@ console.log(
 );
 console.log("Slice " + fruit.slice(1, 4));
 
-let numbers = [14, 16, 17, 18];
-let numbers2 = [19, 20, 21];
+let numbers = [4, 4];
+let numbers2 = [4,4];
 console.log(numbers.concat(numbers2));
+console.log();
+
 
 total = 0;
-for (let n of numbers) {
+for (let n of numbers2) {
   total = total + n;
 }
 console.log(numbers2 + "..total  = " + total);

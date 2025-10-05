@@ -1,16 +1,24 @@
-let name = "Mustafa"
-let cons_no = "100"
-let units = 350;
-let Bill = 0;
+let name = "Mustafa";
+let cons_no = "100";
+let units = 50;
+let bill = 0;
 if (units <= 100) {
-   Bill= units * 1.5;
-} else if (units < 200) {
-  Bill = (units - 200) * 2.5 + (units - 200) * 3.5;
+  console.log("inside 1");
+  
+  bill = units * 1;
+}
+
+else if (units <= 200) {
+  bill = 100 * 1 + (units - 100) * 2;
+  console.log("inside 2");
+  
 } else {
-  Bill = (units - 100) * 3.5;
+  bill = 100 * 1 + 100 * 2 + (units - 200) * 3;
+  console.log("inside 3");
+
 }
 
 console.log("Consumer name", name);
 console.log("Consumer NO", cons_no);
 console.log("Unit Consume", units);
-console.log("Total Bill", Bill);
+console.log("Total Bill", bill);

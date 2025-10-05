@@ -1,5 +1,5 @@
 let totalBill = 3000;
-let coupanCode = "DISC80";
+let coupanCode = "DISC5";
 let discountPercent = 0;
 switch (coupanCode) {
   case "DISC10":
