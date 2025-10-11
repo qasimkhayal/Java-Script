@@ -8,4 +8,4 @@ let employeesUpdated = employees.map((emp) => ({
   name: emp.name,
   salary: emp.salary + 2000,
 }));
-console.log("Updated Salarie:", employeesUpdated);
+console.table( employeesUpdated);
